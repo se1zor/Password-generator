@@ -1,0 +1,40 @@
+.password{
+    color: black;
+}
+
+*{
+    
+    margin: 1px;
+    padding: 1px;
+    font-family: 'poppins' , sans-serif;
+    margin-top: 60px; 
+    justify-content: center;
+}
+body{
+    background-color: rgba(5, 5, 5, 0.356);
+}
+.container{
+    box-sizing: border-box;
+    background-color: black ;
+    color: white;
+    border-width: 10em;
+    border-radius: 25px;
+    width: 60em;
+    text-shadow: 5px 5px 6px  rgb(7, 7, 7);
+    align-self: center;
+}
+
+@media only screen and(max-width : 375px){
+ .container{
+    width: 20em;
+ }
+
+ *{
+    margin: 20px;
+    
+ }
+}
+
+
+
+
